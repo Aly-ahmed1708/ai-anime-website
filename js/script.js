@@ -69,7 +69,7 @@ const defaults = {
   main: {
     name: "Yoichi Isagi",
     img: "images/isagi.webp", // تأكد إنك حاطت صورة isagi في المجلد images بنفس الاسم
-    bio_en: "Isagi is a smart and skilled striker at Blue Lock."
+    bio: "Isagi is a smart and skilled striker at Blue Lock."
 
   },
   episodes: {
@@ -100,7 +100,7 @@ const defaults = {
   main: {
     name: "Yhwach",
     img: "images/yhwach.jpg",
-    bio_en: "Yhwach is the powerful and fearsome leader of the Quincy. With the ability to see the future and reshape fate, he seeks to rule all worlds."
+    bio: "Yhwach is the powerful and fearsome leader of the Quincy. With the ability to see the future and reshape fate, he seeks to rule all worlds."
   },
   episodes: {
     1: {
