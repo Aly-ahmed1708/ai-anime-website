@@ -69,7 +69,7 @@ const defaults = {
   main: {
     name: "Yoichi Isagi",
     img: "images/isagi.webp", // تأكد إنك حاطت صورة isagi في المجلد images بنفس الاسم
-    bio: "Isagi is a smart and skilled striker at Blue Lock."
+    bio_en: "Isagi is a smart and skilled striker at Blue Lock."
 
   },
   episodes: {
@@ -100,7 +100,7 @@ const defaults = {
   main: {
     name: "Yhwach",
     img: "images/yhwach.jpg",
-    bio: "Yhwach is the powerful and fearsome leader of the Quincy. With the ability to see the future and reshape fate, he seeks to rule all worlds."
+    bio_en: "Yhwach is the powerful and fearsome leader of the Quincy. With the ability to see the future and reshape fate, he seeks to rule all worlds."
   },
   episodes: {
     1: {
@@ -117,6 +117,30 @@ const defaults = {
     },
     5: {
       en: "The final battle between Yhwach and Ichigo begins."
+    }
+  }
+},
+"Dragon Ball": {
+  main: {
+    name: "Goku",
+    img: "images/goku.webp",
+    bio_en: "Goku is a Saiyan warrior who protects Earth. Known for his cheerful nature and love for battle, he constantly trains to surpass his limits and face powerful foes."
+  },
+  episodes: {
+    1: {
+      en: "Goku meets Bulma and begins his journey."
+    },
+    2: {
+      en: "He trains under Master Roshi."
+    },
+    3: {
+      en: "Goku enters the World Martial Arts Tournament."
+    },
+    4: {
+      en: "He learns about his Saiyan heritage."
+    },
+    5: {
+      en: "Goku achieves Super Saiyan for the first time."
     }
   }
 }
@@ -413,3 +437,4 @@ episodeSelect.onchange = renderEpisodes;
 populateEpisodeOptions();
 renderChars();
 renderEpisodes();
+
