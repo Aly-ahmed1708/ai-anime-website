@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anime AI</title>
+  <link rel="stylesheet" href="./ai.css" />
+</head>
+<body>
+  <h2>Search Anime Character</h2>
+  <input id="query" placeholder="Enter a name like Naruto">
+  <button onclick="search()">Search</button>
+
+  <div id="result"></div>
+
+  <script>
+    async function search() {
+      const name = document.getElementById('query').value;
+      const res = await fetch(`https://api.jikan.moe/v4/characters?q=${name}`);
+      const data = await res.json();
+
+      if (data.data && data.data.length > 0) {
+        const char = data.data[0];
+        document.getElementById('result').innerHTML = `
+          <h3>${char.name}</h3>
+          <img src="${char.images.jpg.image_url}" width="200">
+          <p>${char.about ? char.about.slice(0, 300) + "..." : "No bio available."}</p>
+        `;
+      } else {
+        document.getElementById('result').innerHTML = 'No character found.';
+      }
+    }
+  </script>
+
+</body>
+</html>
