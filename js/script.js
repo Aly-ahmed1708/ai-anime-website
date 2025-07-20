@@ -24,8 +24,40 @@ const defaults = {
   "Attack on Titan": {
     main: { name: "Eren Yeager", img: "images/Eren.webp", bio: "Vengeful warrior..." },
     episodes: { /* same as before */ }
+  },
+
+"Blue Lock": {
+  main: {
+    name: "Seishiro Nagi",
+    img: "images/nagi.webp",
+    bio_en: "A naturally gifted striker from Blue Lock, Nagi has exceptional ball control and awareness. Though initially disinterested in football, his skills make him a formidable opponent.",
+    bio_ar: "مهاجم موهوب بالفطرة من بلو لوك، يمتلك ناجي تحكمًا استثنائيًا في الكرة ووعيًا عاليًا. رغم عدم اهتمامه بكرة القدم في البداية، إلا أن مهاراته تجعله خصمًا قويًا."
+  },
+  episodes: {
+    1: {
+      en: "Nagi gets recruited into Blue Lock.",
+      ar: "ناجي يتم تجنيده في بلو لوك."
+    },
+    2: {
+      en: "He displays his raw talent.",
+      ar: "يُظهر موهبته الخام."
+    },
+    3: {
+      en: "Nagi teams up with Reo.",
+      ar: "يتعاون ناجي مع ريو."
+    },
+    4: {
+      en: "They challenge strong rivals.",
+      ar: "يتحدون خصومًا أقوياء."
+    },
+    5: {
+      en: "Nagi begins to understand the passion for football.",
+      ar: "يبدأ ناجي في فهم شغف كرة القدم."
+    }
   }
-};
+}
+}
+
 
 const CHAR_KEY = 'animeChars', EP_KEY = 'episodeComments';
 
