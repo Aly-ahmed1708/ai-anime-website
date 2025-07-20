@@ -69,7 +69,7 @@ const defaults = {
   main: {
     name: "Yoichi Isagi",
     img: "images/isagi.webp", // تأكد إنك حاطت صورة isagi في المجلد images بنفس الاسم
-    bio: "The main protagonist of Blue Lock, Isagi is a highly intelligent forward known for his spatial awareness and ability to read the game. Initially unsure of his abilities, his journey through Blue Lock transforms him into a tactical genius who thrives under pressure. His constant battle between selflessness and ego makes him one of the most complex and relatable characters in the story.",
+    bio_en: "Isagi is a smart and skilled striker at Blue Lock."
 
   },
   episodes: {
@@ -93,8 +93,34 @@ const defaults = {
       en: "Isagi scores a decisive goal and starts embracing his ego.",
       ar: "يسجل هدفًا حاسمًا ويبدأ في تقبّل أنانيته."
     }
+  } 
+},
+
+"Bleach": {
+  main: {
+    name: "Yhwach",
+    img: "images/yhwach.jpg",
+    bio_en: "Yhwach is the powerful and fearsome leader of the Quincy. With the ability to see the future and reshape fate, he seeks to rule all worlds."
+  },
+  episodes: {
+    1: {
+      en: "Yhwach awakens after centuries of slumber."
+    },
+    2: {
+      en: "He begins uniting the Quincy under his banner."
+    },
+    3: {
+      en: "Yhwach declares war on the Soul Society."
+    },
+    4: {
+      en: "He demonstrates his terrifying powers."
+    },
+    5: {
+      en: "The final battle between Yhwach and Ichigo begins."
+    }
   }
 }
+
 
 
 }
