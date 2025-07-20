@@ -69,8 +69,8 @@ const defaults = {
   main: {
     name: "Yoichi Isagi",
     img: "images/isagi.webp", // تأكد إنك حاطت صورة isagi في المجلد images بنفس الاسم
-    bio_en: "The main protagonist of Blue Lock, Isagi is a highly intelligent forward known for his spatial awareness and ability to read the game. Initially unsure of his abilities, his journey through Blue Lock transforms him into a tactical genius who thrives under pressure. His constant battle between selflessness and ego makes him one of the most complex and relatable characters in the story.",
-    bio_ar: "إيساجي هو بطل أنمي بلو لوك، مهاجم ذكي يتميز بوعيه المكاني وقدرته العالية على قراءة المباراة. رغم بدايته المترددة وعدم ثقته في نفسه، إلا أن رحلته داخل مشروع Blue Lock جعلت منه لاعبًا استثنائيًا بعقلية تكتيكية فذة. صراعه المستمر بين اللعب الجماعي والأنانية بيخليه شخصية معقدة وواقعية يقدر الجمهور يتعاطف معاها."
+    bio: "The main protagonist of Blue Lock, Isagi is a highly intelligent forward known for his spatial awareness and ability to read the game. Initially unsure of his abilities, his journey through Blue Lock transforms him into a tactical genius who thrives under pressure. His constant battle between selflessness and ego makes him one of the most complex and relatable characters in the story.",
+
   },
   episodes: {
     1: {
