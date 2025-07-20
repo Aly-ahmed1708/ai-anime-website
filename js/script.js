@@ -67,34 +67,35 @@ const defaults = {
   },
 "Blue Lock": {
   main: {
-    name: "Seishiro Nagi",
-    img: "images/nagi.webp",
-    bio_en: "A naturally gifted striker from Blue Lock, Nagi has exceptional ball control and awareness. Though initially disinterested in football, his skills make him a formidable opponent.",
-    bio_ar: "مهاجم موهوب بالفطرة من بلو لوك، يمتلك ناجي تحكمًا استثنائيًا في الكرة ووعيًا عاليًا. رغم عدم اهتمامه بكرة القدم في البداية، إلا أن مهاراته تجعله خصمًا قويًا."
+    name: "Yoichi Isagi",
+    img: "images/isagi.webp", // تأكد إنك حاطت صورة isagi في المجلد images بنفس الاسم
+    bio_en: "The main protagonist of Blue Lock, Isagi is a highly intelligent forward known for his spatial awareness and ability to read the game. Initially unsure of his abilities, his journey through Blue Lock transforms him into a tactical genius who thrives under pressure. His constant battle between selflessness and ego makes him one of the most complex and relatable characters in the story.",
+    bio_ar: "إيساجي هو بطل أنمي بلو لوك، مهاجم ذكي يتميز بوعيه المكاني وقدرته العالية على قراءة المباراة. رغم بدايته المترددة وعدم ثقته في نفسه، إلا أن رحلته داخل مشروع Blue Lock جعلت منه لاعبًا استثنائيًا بعقلية تكتيكية فذة. صراعه المستمر بين اللعب الجماعي والأنانية بيخليه شخصية معقدة وواقعية يقدر الجمهور يتعاطف معاها."
   },
   episodes: {
     1: {
-      en: "Nagi gets recruited into Blue Lock.",
-      ar: "ناجي يتم تجنيده في بلو لوك."
+      en: "Isagi joins Blue Lock with uncertain self-confidence.",
+      ar: "ينضم إيساجي إلى بلو لوك وهو غير واثق في نفسه."
     },
     2: {
-      en: "He displays his raw talent.",
-      ar: "يُظهر موهبته الخام."
+      en: "He begins to analyze his strengths.",
+      ar: "يبدأ بتحليل نقاط قوته."
     },
     3: {
-      en: "Nagi teams up with Reo.",
-      ar: "يتعاون ناجي مع ريو."
+      en: "Isagi faces powerful strikers and learns from failure.",
+      ar: "يواجه مهاجمين أقوياء ويتعلم من الفشل."
     },
     4: {
-      en: "They challenge strong rivals.",
-      ar: "يتحدون خصومًا أقوياء."
+      en: "He develops his spatial awareness and vision.",
+      ar: "يطور وعيه المكاني ورؤيته التكتيكية."
     },
     5: {
-      en: "Nagi begins to understand the passion for football.",
-      ar: "يبدأ ناجي في فهم شغف كرة القدم."
+      en: "Isagi scores a decisive goal and starts embracing his ego.",
+      ar: "يسجل هدفًا حاسمًا ويبدأ في تقبّل أنانيته."
     }
   }
 }
+
 }
 
 
@@ -385,4 +386,3 @@ episodeSelect.onchange = renderEpisodes;
 populateEpisodeOptions();
 renderChars();
 renderEpisodes();
-
