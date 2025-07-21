@@ -100,3 +100,16 @@ footer {
   text-align: center; padding: 20px; font-size: 0.9rem;
   width: 100%; margin-top: auto;
 }
+/* يجعل الصفحة تستجيب لشاشات صغيرة */
+@media (max-width: 600px) {
+  .form-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+  input[type="text"], button {
+    width: 100%;
+  }
+  #result {
+    padding: 20px;
+  }
+}
