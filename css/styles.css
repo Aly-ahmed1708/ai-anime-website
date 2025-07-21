@@ -113,3 +113,15 @@ footer {
     padding: 20px;
   }
 }
+button {
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(40,167,69,0.5);
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #218838;
+  transform: translateY(-1px);
+}
