@@ -7,11 +7,14 @@
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Anime Episode Summary Website</h1>
-    <button id="dark-mode-toggle">Toggle Dark Mode</button>
-    <button id="toggle-episodes-btn">Show Episode Conclusions</button>
-    <button id="reset-btn">Reset Defaults</button>
+  <header class="site-header">
+    <h1>Anime Episode Summary</h1>
+    <div class="header-buttons">
+      <button id="dark-mode-toggle">Dark Mode</button>
+      <button id="toggle-episodes-btn">Show Episodes</button>
+      <button id="reset-btn">Reset</button>
+      <a href="ai.html" class="ai-button">⚡ AI Tool</a>
+    </div>
   </header>
 
   <main>
@@ -24,7 +27,9 @@
 
     <section id="episodes-section" style="display:none;">
       <h2>Episode Conclusions</h2>
-      <select id="episode-anime-select"><option value="">-- Select Anime --</option></select>
+      <select id="episode-anime-select">
+        <option value="">-- Select Anime --</option>
+      </select>
       <div id="episode-list"></div>
       <button id="add-episode-btn">Add Episode Conclusion</button>
     </section>
@@ -52,7 +57,7 @@
     </section>
   </main>
 
-  <button id="add-character-btn">➕</button>
+  <button id="add-character-btn" title="Add Character">➕</button>
 
   <div id="char-modal-overlay" class="hidden">
     <div id="char-modal-box">
@@ -69,19 +74,17 @@
       </form>
     </div>
   </div>
-  
+
   <footer>
     <p>© 2025 Anime Episode Summary. All rights reserved.</p>
-    <p>Made by Aly Tealeb</p>
-    <p>© 2025 Anime Episode Summary. All rights reserved.</p>
-  <p>Made by Aly Tealeb | 
-    <a href="privacy.html">Privacy Policy</a>  
-    <a href="contact.html">Contact</a>
-    <a href="ai.html">Try Ai Now</a> 
-  </p>
+    <p>
+      Made by Aly Tealeb |
+      <a href="privacy.html">Privacy</a> |
+      <a href="contact.html">Contact</a> |
+      <a href="ai.html">Try AI Now</a>
+    </p>
   </footer>
 
   <script src="./js/script.js"></script>
-  
 </body>
 </html>
