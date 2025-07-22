@@ -45,7 +45,7 @@ button:hover { opacity: 0.9; }
   height: 24px; cursor: pointer;
 }
 #add-character-btn {
-  position: fixed; bottom: 20px; right: 20px;
+  position: fixed; bottom: 20px; left: 20px;
   font-size: 2rem; background: var(--accent);
   color: #fff; border-radius: 50%; width: 60px;
   height: 60px; border: none; z-index: 999;
