@@ -95,6 +95,21 @@ const defaults = {
     }
   } 
 },
+  "Hunter x Hunter": {
+  main: {
+    name: "Gon Freecss",
+    img: "images/gon.png",
+    bio: "A young boy who embarks on a journey to become a Hunter and find his father."
+  },
+  episodes: {
+    1: { en: "Gon takes the Hunter Exam.", ar: "جون يبدأ اختبار الصيادين." },
+    2: { en: "Gon meets Kurapika and Leorio.", ar: "جون يلتقي بكورابيكا وليوريو." },
+    3: { en: "Survive the airship challenge.", ar: "البقاء على قيد الحياة في تحدي المنطاد." },
+    4: { en: "Trick Tower begins.", ar: "بدء تحدي برج الخداع." },
+    5: { en: "Teamwork is tested.", ar: "اختبار العمل الجماعي." }
+  }
+},
+
 
 "Bleach": {
   main: {
