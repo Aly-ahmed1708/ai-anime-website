@@ -69,7 +69,7 @@ const defaults = {
   main: {
     name: "Yoichi Isagi",
     img: "images/isagi.webp", // تأكد إنك حاطت صورة isagi في المجلد images بنفس الاسم
-    bio: "Isagi is a smart and skilled striker at Blue Lock."
+    bio_en: "Isagi is a smart and skilled striker at Blue Lock."
 
   },
   episodes: {
@@ -100,7 +100,7 @@ const defaults = {
   main: {
     name: "Yhwach",
     img: "images/yhwach.jpg",
-    bio: "Yhwach is the powerful and fearsome leader of the Quincy. With the ability to see the future and reshape fate, he seeks to rule all worlds."
+    bio_en: "Yhwach is the powerful and fearsome leader of the Quincy. With the ability to see the future and reshape fate, he seeks to rule all worlds."
   },
   episodes: {
     1: {
@@ -124,7 +124,7 @@ const defaults = {
   main: {
     name: "Goku",
     img: "images/goku.webp",
-    bio: "Goku is a Saiyan warrior who protects Earth. Known for his cheerful nature and love for battle, he constantly trains to surpass his limits and face powerful foes."
+    bio_en: "Goku is a Saiyan warrior who protects Earth. Known for his cheerful nature and love for battle, he constantly trains to surpass his limits and face powerful foes."
   },
   episodes: {
     1: {
@@ -143,12 +143,53 @@ const defaults = {
       en: "Goku achieves Super Saiyan for the first time."
     }
   }
+},
+
+"Black Clover": {
+  main: {
+    name: "Asta",
+    img: "images/asta.webp",
+    bio: "A boy born without magic in a world where it's everything."
+  },
+  episodes: {
+    1: { en: "Asta dreams of becoming Wizard King.", ar: "يحلم أستا بأن يصبح إمبراطور السحر." },
+    2: { en: "Asta receives a mysterious grimoire.", ar: "يحصل أستا على كتاب تعاويذ غامض." },
+    3: { en: "Asta and Yuno face their first challenge.", ar: "يواجه أستا ويونو أول تحدٍ لهما." },
+    4: { en: "Asta joins the Black Bulls.", ar: "ينضم أستا إلى فرقة الثيران السوداء." },
+    5: { en: "Mission to a haunted dungeon begins.", ar: "تبدأ مهمة في زنزانة مسكونة." }
+  }
+},
+"Vinland Saga": {
+  main: {
+    name: "Thorfinn",
+    img: "images/thorfinn.webp",
+    bio: "A young warrior seeking revenge for his father's death."
+  },
+  episodes: {
+    1: { en: "Thorfinn’s peaceful life ends.", ar: "تنتهي حياة ثورفين السلمية." },
+    2: { en: "The Viking raid begins.", ar: "تبدأ غارة الفايكنج." },
+    3: { en: "Thors faces Askeladd.", ar: "يواجه ثورز أسكيلاد." },
+    4: { en: "Thorfinn joins the mercenaries.", ar: "ينضم ثورفين إلى المرتزقة." },
+    5: { en: "Thorfinn grows up on the battlefield.", ar: "ينمو ثورفين في ساحة المعركة." }
+  }
+},
+"Detective Conan": {
+  main: {
+    name: "Conan Edogawa",
+    img: "images/conan.webp",
+    bio: "A brilliant young detective trapped in a child's body."
+  },
+  episodes: {
+    1: { en: "Shinichi becomes Conan.", ar: "يتحول شينيتشي إلى كونان." },
+    2: { en: "First case as a child.", ar: "أول قضية له كطفل." },
+    3: { en: "Conan moves in with Ran.", ar: "ينتقل كونان للعيش مع ران." },
+    4: { en: "Conan solves a murder at school.", ar: "يحل كونان جريمة قتل في المدرسة." },
+    5: { en: "Heiji Hattori makes his debut.", ar: "يظهر هيجي هاتوري لأول مرة." }
+  }
 }
 
 
-
 }
-
 
 const CHAR_KEY = 'animeChars', EP_KEY = 'episodeComments';
 
