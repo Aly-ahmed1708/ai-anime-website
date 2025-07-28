@@ -148,7 +148,7 @@ const defaults = {
 "Black Clover": {
   main: {
     name: "Asta",
-    img: "images/asta.webp",
+    img: "images/asta.jpeg",
     bio: "A boy born without magic in a world where it's everything."
   },
   episodes: {
@@ -162,7 +162,7 @@ const defaults = {
 "Vinland Saga": {
   main: {
     name: "Thorfinn",
-    img: "images/thorfinn.webp",
+    img: "images/Thorfinn.webp",
     bio: "A young warrior seeking revenge for his father's death."
   },
   episodes: {
@@ -176,7 +176,7 @@ const defaults = {
 "Detective Conan": {
   main: {
     name: "Conan Edogawa",
-    img: "images/conan.webp",
+    img: "images/conan.jpeg",
     bio: "A brilliant young detective trapped in a child's body."
   },
   episodes: {
