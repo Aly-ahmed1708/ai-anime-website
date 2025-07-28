@@ -98,7 +98,7 @@ const defaults = {
   "Hunter x Hunter": {
   main: {
     name: "Gon Freecss",
-    img: "images/gon.png",
+    img: "images/gon.jpeg",
     bio: "A young boy who embarks on a journey to become a Hunter and find his father."
   },
   episodes: {
