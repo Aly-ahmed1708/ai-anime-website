@@ -18,8 +18,8 @@ Built & maintained by Aly Tealeb © 2025.
 ## 🧱 Tech Stack
 
 - Hosted on GitHub Pages.
-- Front-end: likely HTML/CSS/JavaScript.
-- AI integration via a custom tool (“⚡ AI Tool”) for generating summaries.
+- Front-end:  HTML/CSS/JavaScript.
+- AI integration via a custom tool (“⚡ AI Tool”) for generating anime character descriptions.
 
 ## 🛠️ Getting Started
 
